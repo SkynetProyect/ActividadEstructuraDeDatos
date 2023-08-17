@@ -8,3 +8,5 @@ Crear una lista de diccionarios donde cada diccionario contiene la información 
 Usar un list comprehension para crear una lista de objetos de la clase Student a partir de la lista de diccionarios.
 Usar otro list comprehension para filtrar los estudiantes, excluyendo los que tienen una nota promedio menor que un umbral dado.
 Usar un dictionary comprehension para crear un diccionario de estudiantes que tienen una nota promeidio por encima de un umbral dado, con los nombre de los estudiantes como claves y el objeto Student como valor.
+
+L.O
