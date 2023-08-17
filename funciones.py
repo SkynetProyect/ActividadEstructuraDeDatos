@@ -3,10 +3,10 @@ from StudentClass import Student
 
 # Crear una lista de diccionarios donde cada diccionario contiene la información de un estudiante.
 
-def crear_lista(_objeto: Student, _lista: list):
-    objeto = _objeto
-    _diccionario = {objeto.name: [objeto.age, objeto.grades, objeto.average_grade()]}
+def crear_lista(_nombre: str, _edad:int, _lista: list):
+    _diccionario = {_nombre: [_edad]}
     _lista.append(_diccionario)
+    return _lista
 
 
 # Usar un list comprehension para crear una lista de objetos de la clase Student a partir de la lista de diccionarios.
